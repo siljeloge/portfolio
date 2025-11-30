@@ -1,4 +1,4 @@
-<h1>Portfolio 1.</h1>
+<h1>Portfolio.</h1>
 
 This is my portfolio.
 
@@ -25,7 +25,7 @@ The page includes:
 
 1. Clone the repo:
 ```bash
-gh repo clone siljeloge/portfolio-1
+gh repo clone siljeloge/portfolio
 ```
 
 2. Install the dependencies:
