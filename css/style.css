@@ -139,10 +139,9 @@ h2 {
 .about-row p, .about h2 {
   max-width: 500px;
   text-align: center;
-  margin-bottom: 0; /* Removes extra big gap */
+  margin-bottom: 0;
 }
 
-/* === SKILLS SECTION BELOW === */
 .skills {
   text-align: center;
   margin-top: 40px;
@@ -182,16 +181,6 @@ h2 {
 
 .skills a:hover {
   color: #8585aa;
-}
-
-/* Contact Form */
-form input, form textarea {
-  width: 100%;
-  padding: 0.6rem;
-  margin-top: 0.3rem;
-  margin-bottom: 1rem;
-  border-radius: 4px;
-  border: 1px solid #ccc;
 }
 
 /* Footer */
