@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <meta name="description" content="Portfolio website showcasing my web development projects." />
+  <link rel="stylesheet" href="css/style.css" />
+   <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <a href="#home" class="logo">Welcome to my portfolio</a>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <!-- HOME SECTION -->
+  <section id="home" class="section home">
+    <div class="container">
+      <h1>Hi, I'm Silje Loge</h1>
+      <p>I am a frontend developer student at Noroff School of Technology and Digital Media. I am passionate about creating clean and responsive websites with HTML, CSS and JavaScript.</p>
+    </div>
+  </section>
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2>My projects</h2>
+      <p>Here are the projects I’ve built during my studies so far:</p>
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="images/html-css-img.png" alt="RainyDays project preview" />
+          <h3>HTML and CSS - 1</h3>
+          <p>My first project. The assignment were to design and build an e-commerce site for rain jackets. The site is built with Figma, HTML and CSS.</p>
+          <div class="links">
+            <a href="https://siljeloge.github.io/HTML-CSS-CA/" target="_blank">Live Demo</a>
+            <a href="https://github.com/siljeloge/HTML-CSS-CA" target="_blank">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/javascript1-img.png" alt="JavaScript 1 project preview" />
+          <h3>JavaScript - 1</h3>
+          <p>First JavaScript-assignment. Build an e-commerse site for RainyDays-project focused on DOM manipulation and fetch API. Built with Vanilla JavaScript.</p>
+          <div class="links">
+            <a href="https://siljeloge.github.io/javascript-1/" target="_blank">Live Demo</a>
+            <a href="https://github.com/siljeloge/javascript-1" target="_blank">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/csm-img.png" alt="Semester Project 1 preview" />
+          <h3>Semester Project - 1</h3>
+          <p>First semester-project. The assignment was do design and build an informative website for a museum. Built with Figma, HTML and CSS.</p>
+          <div class="links">
+            <a href="https://siljeloge.github.io/semster-project-1/" target="_blank">Live Demo</a>
+            <a href="https://github.com/siljeloge/semster-project-1" target="_blank">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section about">
+  <div class="containerabout">
+    <h2>About Me</h2>
+    <div class="about-row">
+      <img src="images/profileimg.jpg" alt="Profile picture of Silje Loge" />
+      <p>
+        I am a 30 year old woman, based in Oslo, Norway.
+        I have had an interest in technology and design for as long as I can remember. 
+        My first websites were made with www.piczo.com back in the early 2000s!
+        I’m currently studying front-end development, focusing on creating accessible,
+        responsive, and user-friendly websites.
+      </p>
+    </div>
+    <div class="skills">
+      <h3>Skills</h3>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>Responsive Design</li>
+        <li>Version Control (Git & GitHub)</li>
+        <li>Figma</li>
+      </ul>
+
+      <a href="assets/docs/reflection.pdf" target="_blank">View CV</a>
+      <a href="assets/docs/portfolio.pdf" target="_blank">View Cover Letter</a>
+    </div>
+
+  </div>
+</section>
+  </section>
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Want to get in touch? Send me an email or find me on LinkedIn.</p>
+      <p>Email: silje_loge@hotmail.com</p>
+      <p>LinkedIn: <a href="http://linkedin.com/in/silje-loge-271097303" target="_blank">Silje Loge</a></p>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Silje Loge — Frontend Developer</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
