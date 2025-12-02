@@ -72,7 +72,7 @@ p {
   text-align: center;
 }
 
-h2 {
+h2, h3 {
   text-align: center;
   font-size: 32px;
   margin-bottom: 20px;
@@ -124,11 +124,12 @@ h2 {
   width: 300px;
   height: 300px;
   object-fit: cover;
+  display: block;
+  margin: 0 auto 20px;
   border: #f5f5f5 4px solid;
 }
 
 .about-row {
-  display: flex;
   justify-content: center;
   align-items: center;
   gap: 40px;
@@ -137,19 +138,39 @@ h2 {
 }
 
 .about-row p, .about h2 {
-  max-width: 500px;
+  max-width: 1100px;
   text-align: center;
   margin-bottom: 0;
 }
 
-.skills {
+.about-extra {
   text-align: center;
   margin-top: 40px;
 }
 
+.about-extra a {
+  display: inline-block;
+  margin: 0 15px;
+  color: #fff;
+  background-color: #8585aa;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+.about-extra a:hover {
+  background-color: #ddd9d9;
+  color: #4d4d5f;
+}
+
+.skills {
+  text-align: center;
+}
+
 .skills h3 {
-  font-size: 24px;
   margin-bottom: 20px;
+  margin-top: 100px;
 }
 
 .skills ul {
@@ -160,27 +181,19 @@ h2 {
   justify-content: center;
   gap: 12px;
   flex-wrap: wrap;
+  margin-bottom: -50px;
 }
 
 .skills ul li {
-  background: #8585aa;
-  color: #fff;
+  background: #ddd9d9;
+  color: #4d4d5f;
   padding: 8px 16px;
   border-radius: 20px;
   font-size: 15px;
 }
 
-/* Buttons under skills */
-.skills a {
-  display: inline-block;
-  margin: 0 15px;
-  color: #4d4d5f;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.skills a:hover {
-  color: #8585aa;
+.contact h2 {
+  margin-bottom: 20px;
 }
 
 /* Footer */
