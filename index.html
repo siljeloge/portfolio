@@ -1,111 +1,329 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
-  <meta name="description" content="Portfolio website showcasing my web development projects." />
+
+  <title>Silje Loge | Frontend Developer</title>
+
+<meta
+ name="description"
+ content="Frontend developer portfolio for Silje Loge, showcasing projects, skills and experience."
+/>
+
   <link rel="stylesheet" href="css/style.css" />
-   <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
 </head>
+
 <body>
+
+  <!-- HEADER -->
+
   <header class="site-header">
-    <a href="#home" class="logo">Welcome to my portfolio</a>
-    <nav class="nav">
-      <a href="#home">Home</a>
-      <a href="#projects">Projects</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <a href="#home" class="logo">SILJE.</a>
+
+```
+<nav class="nav">
+  <a href="#home">Home</a>
+  <a href="#projects">Work</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+```
+
   </header>
-  <!-- HOME SECTION -->
-  <section id="home" class="section home">
-    <div class="container">
-      <h1>Hi, I'm Silje Loge</h1>
-      <p>I am a frontend developement student at Noroff School of Technology and Digital Media. I am passionate about creating clean and responsive websites with HTML, CSS and JavaScript.</p>
+
+  <main>
+
+```
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="container hero-content">
+
+    <p class="eyebrow">&lt;frontend developer /&gt;</p>
+
+    <h1>
+      Hi, I'm Silje.<br />
+      I build clean and responsive web experiences.
+    </h1>
+
+    <p class="hero-text">
+      I'm a Frontend Development student at Noroff, working with
+      JavaScript, APIs and modern frontend tools to create
+      user-friendly web applications.
+    </p>
+
+    <div class="hero-links">
+      <a href="#projects" class="button primary">View my work</a>
+
+      <a
+        href="https://github.com/siljeloge"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="button secondary"
+      >
+        GitHub ↗
+      </a>
     </div>
-  </section>
-  <!-- PROJECTS SECTION -->
-  <section id="projects" class="section projects">
-    <div class="container">
-      <h2>My projects</h2>
-      <p>Here are the projects I’ve built during my studies so far:</p>
-      <div class="project-grid">
-        <article class="project-card">
-          <img src="images/html-css-img.png" alt="RainyDays project preview" />
-          <h3>HTML and CSS - 1</h3>
-          <p>My first project. The assignment were to design and build an e-commerce site for rain jackets. The site is built with Figma, HTML and CSS.</p>
-          <div class="links">
-            <a href="https://siljeloge.github.io/HTML-CSS-CA/" target="_blank">Live Demo</a>
-            <a href="https://github.com/siljeloge/HTML-CSS-CA" target="_blank">GitHub</a>
-          </div>
-        </article>
-        <article class="project-card">
-          <img src="images/javascript1-img.png" alt="JavaScript 1 project preview" />
-          <h3>JavaScript - 1</h3>
-          <p>First JavaScript-assignment. Build an e-commerse site for RainyDays-project focused on DOM manipulation and fetch API. Built with Vanilla JavaScript.</p>
-          <div class="links">
-            <a href="https://siljeloge.github.io/javascript-1/" target="_blank">Live Demo</a>
-            <a href="https://github.com/siljeloge/javascript-1" target="_blank">GitHub</a>
-          </div>
-        </article>
-        <article class="project-card">
-          <img src="images/csm-img.png" alt="Semester Project 1 preview" />
-          <h3>Semester Project - 1</h3>
-          <p>First semester-project. The assignment was do design and build an informative website for a museum. Built with Figma, HTML and CSS.</p>
-          <div class="links">
-            <a href="https://siljeloge.github.io/semster-project-1/" target="_blank">Live Demo</a>
-            <a href="https://github.com/siljeloge/semster-project-1" target="_blank">GitHub</a>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-  <!-- ABOUT SECTION -->
-  <section id="about" class="section about">
-  <div class="containerabout">
-    <h2>Some information about me</h2>
-    <div class="about-row">
-      <img src="images/profileimg.jpg" alt="Profile picture of Silje Loge" />
-      <p>
-        I am a 30 year old woman, based in Oslo, Norway.
-        I have had an interest in technology and design for as long as I can remember. 
-        My first websites were made with www.piczo.com back in the early 2000s!
-        I’m currently studying front-end development, focusing on creating accessible,
-        responsive, and user-friendly websites.
-      </p>
-    </div>
-        <div class="about-extra">
-          <a href="images/Silje_Loge_CV.pdf" target="_blank">View CV</a>
-          <a href="images/Cover Letter - Portfolio PDF.pdf" target="_blank">View Cover Letter</a>
-        </div>
-    <div class="skills">
-      <h3>Skills</h3>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Visual Studio Code</li>
-        <li>Responsive Design</li>
-        <li>Version Control (Git & GitHub)</li>
-        <li>Figma</li>
-      </ul>
+
   </div>
 </section>
-  </section>
-  <!-- CONTACT SECTION -->
-  <section id="contact" class="section contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>Want to get in touch? Send me an email or find me on LinkedIn.</p>
-      <p>Email: silje_loge@hotmail.com</p>
-      <p>LinkedIn: <a href="http://linkedin.com/in/silje-loge-271097303" target="_blank">Silje Loge</a></p>
+
+
+<!-- PROJECTS -->
+<section id="projects" class="projects">
+  <div class="container">
+
+    <p class="section-label">Selected work</p>
+    <h2>Projects</h2>
+
+    <!-- NORDIC LOFT -->
+    <article class="project">
+
+      <div class="project-image">
+        <img
+          src="images/nordic-loft-home.png"
+          alt="Nordic Loft e-commerce website"
+        />
+      </div>
+
+      <div class="project-info">
+
+        <p class="project-number">01 / E-COMMERCE</p>
+
+        <h3>Nordic Loft</h3>
+
+        <p>
+          A responsive e-commerce website designed and developed
+          as part of my Frontend Development studies at Noroff.
+          Products are fetched from an API and users can browse
+          products, view product details and use a shopping cart.
+        </p>
+
+        <div class="tech-list">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>REST API</span>
+          <span>Figma</span>
+        </div>
+
+        <div class="project-links">
+          <a
+            href="https://siljeloge.github.io/project-exam-1/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Live site ↗
+          </a>
+
+          <a
+            href="https://github.com/siljeloge/project-exam-1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub ↗
+          </a>
+        </div>
+
+      </div>
+
+    </article>
+
+
+    <!-- WORKFLOW -->
+    <article class="project reverse">
+
+      <div class="project-image project-placeholder">
+        <p>Workflow & Testing</p>
+      </div>
+
+      <div class="project-info">
+
+        <p class="project-number">02 / TESTING & WORKFLOW</p>
+
+        <h3>Frontend Workflow & Testing</h3>
+
+        <p>
+          A project focused on development workflow, automated
+          testing and code quality. I worked with unit testing,
+          end-to-end testing, linting, formatting and automated
+          pre-commit checks.
+        </p>
+
+        <div class="tech-list">
+          <span>JavaScript</span>
+          <span>Vitest</span>
+          <span>Playwright</span>
+          <span>ESLint</span>
+          <span>Prettier</span>
+          <span>Husky</span>
+        </div>
+
+        <div class="project-links">
+          <a
+            href="https://github.com/siljeloge/workflow/tree/workflow"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub ↗
+          </a>
+        </div>
+
+      </div>
+
+    </article>
+
+
+    <!-- PROJECT 3 -->
+    <article class="project">
+
+      <div class="project-image project-placeholder">
+        <p>Coming soon</p>
+      </div>
+
+      <div class="project-info">
+
+        <p class="project-number">03 / FRONTEND</p>
+
+        <h3>More coming soon</h3>
+
+        <p>
+          I'm currently working on and improving more projects
+          from my Frontend Development studies.
+        </p>
+
+      </div>
+
+    </article>
+
+  </div>
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <div class="container">
+
+    <p class="section-label">About me</p>
+
+    <div class="about-grid">
+
+      <div class="about-heading">
+        <h2>A little about me.</h2>
+      </div>
+
+      <div class="about-content">
+
+        <p>
+          I'm currently studying Frontend Development at Noroff
+          School of Technology and Digital Media.
+        </p>
+
+        <p>
+          I've had an interest in technology and design for as long
+          as I can remember — my first websites were made with
+          Piczo back in the early 2000s.
+        </p>
+
+        <p>
+          Today, I enjoy combining design and problem-solving to
+          create responsive and user-friendly web experiences.
+          I'm currently looking for opportunities where I can gain
+          professional experience and continue developing my skills
+          as a frontend developer.
+        </p>
+
+      </div>
+
     </div>
-  </section>
+
+
+    <!-- SKILLS -->
+    <div class="skills">
+
+      <h3>Tools I work with</h3>
+
+      <div class="skill-list">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Sass</span>
+        <span>JavaScript</span>
+        <span>Bootstrap</span>
+        <span>REST API</span>
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>Figma</span>
+        <span>Vitest</span>
+        <span>Playwright</span>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <div class="container">
+
+    <p class="section-label">Contact</p>
+
+    <h2>Let's work together.</h2>
+
+    <p>
+      I'm currently looking for opportunities within frontend
+      and web development.
+    </p>
+
+    <a
+      href="mailto:silje_loge@hotmail.com"
+      class="email-link"
+    >
+      silje_loge@hotmail.com ↗
+    </a>
+
+    <div class="social-links">
+
+      <a
+        href="https://github.com/siljeloge"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub
+      </a>
+
+      <a
+        href="https://linkedin.com/in/silje-loge-271097303"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        LinkedIn
+      </a>
+
+    </div>
+
+  </div>
+</section>
+```
+
+  </main>
+
   <!-- FOOTER -->
+
   <footer class="site-footer">
-    <p>© <span id="year"></span> Silje Loge — Frontend Developer</p>
+    <p>
+      © <span id="year"></span> Silje Loge · Frontend Developer
+    </p>
   </footer>
+
   <script src="js/main.js"></script>
+
 </body>
 </html>
