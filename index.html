@@ -1,329 +1,393 @@
+
 <!DOCTYPE html>
-
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Silje Loge | Frontend Developer</title>
+    <title>Silje Loge | Frontend Developer</title>
 
-<meta
- name="description"
- content="Frontend developer portfolio for Silje Loge, showcasing projects, skills and experience."
-/>
+    <meta
+      name="description"
+      content="Frontend developer portfolio for Silje Loge, showcasing web development projects, skills and experience."
+    />
 
-  <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
+    <!-- HEADER -->
+    <header class="site-header">
+      <a href="#home" class="logo">SILJE.</a>
 
-  <!-- HEADER -->
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#projects">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-  <header class="site-header">
-    <a href="#home" class="logo">SILJE.</a>
+    <main>
+      <!-- HERO -->
+      <section id="home" class="hero">
+        <div class="container hero-content">
+          <p class="eyebrow">&lt;frontend developer /&gt;</p>
 
-```
-<nav class="nav">
-  <a href="#home">Home</a>
-  <a href="#projects">Work</a>
-  <a href="#about">About</a>
-  <a href="#contact">Contact</a>
-</nav>
-```
+          <h1>
+            Hi, I'm Silje.<br />
+            I build clean and responsive web experiences.
+          </h1>
 
-  </header>
+          <p class="hero-text">
+            I'm a Frontend Development student at Noroff, working with
+            JavaScript, APIs and modern frontend tools to create
+            user-friendly web applications.
+          </p>
 
-  <main>
+          <div class="hero-links">
+            <a href="#projects" class="button primary">
+              View my work
+            </a>
 
-```
-<!-- HERO -->
-<section id="home" class="hero">
-  <div class="container hero-content">
-
-    <p class="eyebrow">&lt;frontend developer /&gt;</p>
-
-    <h1>
-      Hi, I'm Silje.<br />
-      I build clean and responsive web experiences.
-    </h1>
-
-    <p class="hero-text">
-      I'm a Frontend Development student at Noroff, working with
-      JavaScript, APIs and modern frontend tools to create
-      user-friendly web applications.
-    </p>
-
-    <div class="hero-links">
-      <a href="#projects" class="button primary">View my work</a>
-
-      <a
-        href="https://github.com/siljeloge"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="button secondary"
-      >
-        GitHub ↗
-      </a>
-    </div>
-
-  </div>
-</section>
-
-
-<!-- PROJECTS -->
-<section id="projects" class="projects">
-  <div class="container">
-
-    <p class="section-label">Selected work</p>
-    <h2>Projects</h2>
-
-    <!-- NORDIC LOFT -->
-    <article class="project">
-
-      <div class="project-image">
-        <img
-          src="images/nordic-loft-home.png"
-          alt="Nordic Loft e-commerce website"
-        />
-      </div>
-
-      <div class="project-info">
-
-        <p class="project-number">01 / E-COMMERCE</p>
-
-        <h3>Nordic Loft</h3>
-
-        <p>
-          A responsive e-commerce website designed and developed
-          as part of my Frontend Development studies at Noroff.
-          Products are fetched from an API and users can browse
-          products, view product details and use a shopping cart.
-        </p>
-
-        <div class="tech-list">
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>JavaScript</span>
-          <span>REST API</span>
-          <span>Figma</span>
+            <a
+              href="https://github.com/siljeloge"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="button secondary"
+            >
+              GitHub ↗
+            </a>
+          </div>
         </div>
+      </section>
 
-        <div class="project-links">
+      <!-- PROJECTS -->
+      <section id="projects" class="projects">
+        <div class="container">
+          <p class="section-label">Selected work</p>
+          <h2>Projects</h2>
+
+          <!-- PROJECT 01: MYBID -->
+          <article class="project">
+            <div class="project-image">
+              <img
+                src="images/mybid-home.png"
+                alt="MyBid auction platform homepage"
+              />
+            </div>
+
+            <div class="project-info">
+              <p class="project-number">
+                01 / AUCTION PLATFORM
+              </p>
+
+              <h3>MyBid</h3>
+
+              <p>
+                A responsive auction platform designed in Figma and
+                developed using JavaScript, Bootstrap and the Noroff
+                Auction API. Users can browse and search listings,
+                register and log in, place bids, and manage their
+                own listings and profiles.
+              </p>
+
+              <div class="tech-list">
+                <span>HTML</span>
+                <span>JavaScript</span>
+                <span>Bootstrap</span>
+                <span>Sass</span>
+                <span>REST API</span>
+                <span>Figma</span>
+              </div>
+
+              <div class="project-links">
+                <a
+                  href="https://siljeloge.github.io/semester-project-2/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View MyBid live website"
+                >
+                  Live site ↗
+                </a>
+
+                <a
+                  href="https://github.com/siljeloge/semester-project-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View MyBid on GitHub"
+                >
+                  GitHub ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 02: NORDIC LOFT -->
+          <article class="project reverse">
+            <div class="project-image">
+              <img
+                src="images/nordic-loft-home.png"
+                alt="Nordic Loft e-commerce website"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="project-info">
+              <p class="project-number">
+                02 / E-COMMERCE
+              </p>
+
+              <h3>Nordic Loft</h3>
+
+              <p>
+                A responsive e-commerce website designed and developed
+                as part of my Frontend Development studies at Noroff.
+                Products are fetched from an API and users can browse
+                products, view product details and use a shopping cart.
+              </p>
+
+              <div class="tech-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>REST API</span>
+                <span>Figma</span>
+              </div>
+
+              <div class="project-links">
+                <a
+                  href="https://siljeloge.github.io/project-exam-1/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View Nordic Loft live website"
+                >
+                  Live site ↗
+                </a>
+
+                <a
+                  href="https://github.com/siljeloge/project-exam-1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View Nordic Loft on GitHub"
+                >
+                  GitHub ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 03: SOCIAL MEDIA APP -->
+          <article class="project">
+            <div class="project-image">
+              <img
+                src="images/social-media-home.png"
+                alt="Social media application showing posts"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="project-info">
+              <p class="project-number">
+                03 / SOCIAL MEDIA
+              </p>
+
+              <h3>Social Media Application</h3>
+
+              <p>
+                A social media application built with vanilla
+                JavaScript and the Noroff Social API. Users can
+                register, log in, create and manage posts, search
+                content, view profiles and follow other users.
+              </p>
+
+              <div class="tech-list">
+                <span>HTML</span>
+                <span>JavaScript</span>
+                <span>Bootstrap</span>
+                <span>Sass</span>
+                <span>REST API</span>
+              </div>
+
+              <div class="project-links">
+                <a
+                  href="https://siljeloge.github.io/javascript-2/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View Social Media Application live website"
+                >
+                  Live site ↗
+                </a>
+
+                <a
+                  href="https://github.com/siljeloge/javascript-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View Social Media Application on GitHub"
+                >
+                  GitHub ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 04: WORKFLOW & TESTING -->
+          <article class="project reverse">
+            <div class="project-image">
+              <img
+                src="images/testing-img.png"
+                alt="Workflow and testing project showing code quality tools"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="project-info">
+              <p class="project-number">
+                04 / TESTING & WORKFLOW
+              </p>
+
+              <h3>Frontend Workflow & Testing</h3>
+
+              <p>
+                A project focused on development workflow, automated
+                testing and code quality. I worked with unit testing,
+                end-to-end testing, linting, formatting and automated
+                pre-commit checks.
+              </p>
+
+              <div class="tech-list">
+                <span>JavaScript</span>
+                <span>Vitest</span>
+                <span>Playwright</span>
+                <span>ESLint</span>
+                <span>Prettier</span>
+                <span>Husky</span>
+              </div>
+
+              <div class="project-links">
+                <a
+                  href="https://github.com/siljeloge/workflow/tree/workflow"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View Workflow and Testing project on GitHub"
+                >
+                  GitHub ↗
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="about">
+        <div class="container">
+          <p class="section-label">About me</p>
+
+          <div class="about-grid">
+            <div class="about-heading">
+              <h2>A little about me.</h2>
+            </div>
+
+            <div class="about-content">
+              <p>
+                I'm currently studying Frontend Development at Noroff
+                School of Technology and Digital Media, alongside
+                working full-time. Through my studies, I've gained
+                hands-on experience building responsive web applications,
+                working with APIs and turning designs into functional
+                websites.
+              </p>
+
+              <p>
+                I've had an interest in technology and design for as
+                long as I can remember — my first websites were made
+                with Piczo back in the early 2000s.
+              </p>
+
+              <p>
+                Today, I enjoy combining design and problem-solving
+                to create responsive and user-friendly web experiences.
+                I'm currently looking for opportunities where I can
+                gain professional experience and continue developing
+                my skills as a frontend developer.
+              </p>
+            </div>
+          </div>
+
+          <!-- SKILLS -->
+          <div class="skills">
+            <h3>Tools I work with</h3>
+
+            <div class="skill-list">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Sass</span>
+              <span>JavaScript</span>
+              <span>Bootstrap</span>
+              <span>REST API</span>
+              <span>Git</span>
+              <span>GitHub</span>
+              <span>Figma</span>
+              <span>Vitest</span>
+              <span>Playwright</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <p class="section-label">Contact</p>
+
+          <h2>Let's work together.</h2>
+
+          <p>
+            I'm currently looking for opportunities within frontend
+            and web development.
+          </p>
+
           <a
-            href="https://siljeloge.github.io/project-exam-1/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:silje_loge@hotmail.com"
+            class="email-link"
           >
-            Live site ↗
+            silje_loge@hotmail.com ↗
           </a>
 
-          <a
-            href="https://github.com/siljeloge/project-exam-1"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub ↗
-          </a>
+          <div class="social-links">
+            <a
+              href="https://github.com/siljeloge"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+
+            <a
+              href="https://linkedin.com/in/silje-loge-271097303"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+          </div>
         </div>
+      </section>
+    </main>
 
-      </div>
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <p>
+        © <span id="year"></span> Silje Loge · Frontend Developer
+      </p>
+    </footer>
 
-    </article>
-
-
-    <!-- WORKFLOW -->
-    <article class="project reverse">
-
-      <div class="project-image project-placeholder">
-        <p>Workflow & Testing</p>
-      </div>
-
-      <div class="project-info">
-
-        <p class="project-number">02 / TESTING & WORKFLOW</p>
-
-        <h3>Frontend Workflow & Testing</h3>
-
-        <p>
-          A project focused on development workflow, automated
-          testing and code quality. I worked with unit testing,
-          end-to-end testing, linting, formatting and automated
-          pre-commit checks.
-        </p>
-
-        <div class="tech-list">
-          <span>JavaScript</span>
-          <span>Vitest</span>
-          <span>Playwright</span>
-          <span>ESLint</span>
-          <span>Prettier</span>
-          <span>Husky</span>
-        </div>
-
-        <div class="project-links">
-          <a
-            href="https://github.com/siljeloge/workflow/tree/workflow"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub ↗
-          </a>
-        </div>
-
-      </div>
-
-    </article>
-
-
-    <!-- PROJECT 3 -->
-    <article class="project">
-
-      <div class="project-image project-placeholder">
-        <p>Coming soon</p>
-      </div>
-
-      <div class="project-info">
-
-        <p class="project-number">03 / FRONTEND</p>
-
-        <h3>More coming soon</h3>
-
-        <p>
-          I'm currently working on and improving more projects
-          from my Frontend Development studies.
-        </p>
-
-      </div>
-
-    </article>
-
-  </div>
-</section>
-
-
-<!-- ABOUT -->
-<section id="about" class="about">
-  <div class="container">
-
-    <p class="section-label">About me</p>
-
-    <div class="about-grid">
-
-      <div class="about-heading">
-        <h2>A little about me.</h2>
-      </div>
-
-      <div class="about-content">
-
-        <p>
-          I'm currently studying Frontend Development at Noroff
-          School of Technology and Digital Media.
-        </p>
-
-        <p>
-          I've had an interest in technology and design for as long
-          as I can remember — my first websites were made with
-          Piczo back in the early 2000s.
-        </p>
-
-        <p>
-          Today, I enjoy combining design and problem-solving to
-          create responsive and user-friendly web experiences.
-          I'm currently looking for opportunities where I can gain
-          professional experience and continue developing my skills
-          as a frontend developer.
-        </p>
-
-      </div>
-
-    </div>
-
-
-    <!-- SKILLS -->
-    <div class="skills">
-
-      <h3>Tools I work with</h3>
-
-      <div class="skill-list">
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>Sass</span>
-        <span>JavaScript</span>
-        <span>Bootstrap</span>
-        <span>REST API</span>
-        <span>Git</span>
-        <span>GitHub</span>
-        <span>Figma</span>
-        <span>Vitest</span>
-        <span>Playwright</span>
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-
-<!-- CONTACT -->
-<section id="contact" class="contact">
-  <div class="container">
-
-    <p class="section-label">Contact</p>
-
-    <h2>Let's work together.</h2>
-
-    <p>
-      I'm currently looking for opportunities within frontend
-      and web development.
-    </p>
-
-    <a
-      href="mailto:silje_loge@hotmail.com"
-      class="email-link"
-    >
-      silje_loge@hotmail.com ↗
-    </a>
-
-    <div class="social-links">
-
-      <a
-        href="https://github.com/siljeloge"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GitHub
-      </a>
-
-      <a
-        href="https://linkedin.com/in/silje-loge-271097303"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        LinkedIn
-      </a>
-
-    </div>
-
-  </div>
-</section>
-```
-
-  </main>
-
-  <!-- FOOTER -->
-
-  <footer class="site-footer">
-    <p>
-      © <span id="year"></span> Silje Loge · Frontend Developer
-    </p>
-  </footer>
-
-  <script src="js/main.js"></script>
-
-</body>
+    <script src="js/main.js"></script>
+  </body>
 </html>
